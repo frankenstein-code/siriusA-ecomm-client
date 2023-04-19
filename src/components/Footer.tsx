@@ -4,13 +4,13 @@ function Footer() {
   return (
     <div
       style={{
-        padding: "2rem",
-        background: "grey",
-        color: "white",
+        padding: "1rem",
+        background: "#FEFAE0",
+        color: "#000",
         textAlign: "center",
       }}
     >
-      FOOTER
+      <h5>Footer Component</h5>
     </div>
   );
 }
