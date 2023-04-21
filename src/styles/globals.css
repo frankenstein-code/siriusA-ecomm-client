@@ -2,7 +2,40 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
   min-height: 100vh;
+}
+
+/* change the theme of the app here */
+.theme-primary {
+  background: #e74646;
+}
+
+.theme-secondary {
+  background: #fa9884;
+}
+
+.theme-third {
+  background: #ffe5ca;
+}
+
+.theme-forth {
+  background: #fff3e2;
+}
+
+.general-text {
+  color: #fff;
+}
+
+.heading-text {
+}
+
+.description-text {
+}
+/* change the theme of the app here */
+
+.trending-product .carousel-control-prev {
+  display: none;
+}
+.trending-product .carousel-control-next {
+  display: none;
 }
